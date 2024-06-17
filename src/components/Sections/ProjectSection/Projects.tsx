@@ -3,8 +3,6 @@ import { CardContainer, Container, Desc, Divider, Title, ToggleButtonGroup, Wrap
 import { projects } from "@/constants/Bio";
 import { ToggleButton } from "@mui/material";
 import ProjectCard from "@/components/Cards/ProjectCard/ProjectCard";
-import { HeroBg } from "../HeroSection/heroStyles";
-import StyledStarsCanvas from "@/components/canvas/Stars/Stars";
 
 const Projects = () => {
     const [toggle, setToggle] = useState("all");
