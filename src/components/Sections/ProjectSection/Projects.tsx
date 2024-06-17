@@ -26,6 +26,7 @@ const Projects = () => {
                     <ToggleButton
                         // color="primary"
                         // active={toggle === "all"}
+                        value="all"
                         onClick={() => setToggle("all")}
                     >
                         <p style={{ color: "white" }}>ALL</p>
@@ -34,6 +35,7 @@ const Projects = () => {
                     <ToggleButton
                         // color="primary"
                         // active={toggle === "web app"}
+                        value="web app"
                         onClick={() => setToggle("web app")}
                     >
                         <p style={{ color: "white" }}>UI/UX</p>
@@ -42,6 +44,7 @@ const Projects = () => {
                     <ToggleButton
                         // color="primary"
                         // active={toggle === "android app"}
+                        value="android app"
                         onClick={() => setToggle("android app")}
                     >
                         <p style={{ color: "white" }}>FULL STACK WEB</p>
@@ -52,6 +55,7 @@ const Projects = () => {
                         // exclusive
                         // aria-label="platform"
                         // active={toggle === "machine learning"}
+                        value="machine learning"
                         onClick={() => setToggle("machine learning")}
                     >
                         <p style={{ color: "white" }}>APIS</p>
@@ -62,6 +66,7 @@ const Projects = () => {
                         // exclusive
                         // aria-label="platform"
                         // active={toggle === "machine learning"}
+                        value="machine learning"
                         onClick={() => setToggle("machine learning")}
                     >
                         <p style={{ color: "white" }}>MOBILE DEVELOPMENT</p>
