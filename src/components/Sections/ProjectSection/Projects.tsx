@@ -24,44 +24,44 @@ const Projects = () => {
 
                 <ToggleButtonGroup>
                     <ToggleButton
-                        color="primary"
-                        active={toggle === "all"}
+                        // color="primary"
+                        // active={toggle === "all"}
                         onClick={() => setToggle("all")}
                     >
                         <p style={{ color: "white" }}>ALL</p>
                     </ToggleButton>
                     <Divider />
                     <ToggleButton
-                        color="primary"
-                        active={toggle === "web app"}
+                        // color="primary"
+                        // active={toggle === "web app"}
                         onClick={() => setToggle("web app")}
                     >
                         <p style={{ color: "white" }}>UI/UX</p>
                     </ToggleButton>
                     <Divider />
                     <ToggleButton
-                        color="primary"
-                        active={toggle === "android app"}
+                        // color="primary"
+                        // active={toggle === "android app"}
                         onClick={() => setToggle("android app")}
                     >
                         <p style={{ color: "white" }}>FULL STACK WEB</p>
                     </ToggleButton>
                     <Divider />
                     <ToggleButton
-                        color="primary"
-                        exclusive
-                        aria-label="platform"
-                        active={toggle === "machine learning"}
+                        // color="primary"
+                        // exclusive
+                        // aria-label="platform"
+                        // active={toggle === "machine learning"}
                         onClick={() => setToggle("machine learning")}
                     >
                         <p style={{ color: "white" }}>APIS</p>
                     </ToggleButton>
                     <Divider />
                     <ToggleButton
-                        color="primary"
-                        exclusive
-                        aria-label="platform"
-                        active={toggle === "machine learning"}
+                        // color="primary"
+                        // exclusive
+                        // aria-label="platform"
+                        // active={toggle === "machine learning"}
                         onClick={() => setToggle("machine learning")}
                     >
                         <p style={{ color: "white" }}>MOBILE DEVELOPMENT</p>
