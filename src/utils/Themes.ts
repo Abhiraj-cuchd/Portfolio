@@ -20,3 +20,10 @@ export const lightTheme = {
   card: "#FFFFFF",
   button: "#5c5b5b",
 };
+
+// "rewrites": [
+    //     {
+    //         "source": "/(.*)",
+    //         "destination": "/"
+    //     }
+    // ]
